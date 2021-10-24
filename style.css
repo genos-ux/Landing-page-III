@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+    text-align: center;
+    background: #eee;
+    overflow-x: hidden;
+    
+    
+}
+
+#one{
+    display: flex;
+
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+#two{
+    display: flex;
+
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+#three{
+    display: flex;
+
+    justify-content: space-around;
+    margin: 10px;
+}
+main{
+    padding-top: 37%;
+}
+#vid{
+    width: 100%;
+    padding: 0;
+}
+video{
+    width: 100%;
+}
+#adas{
+    margin-bottom: 20%;
+}
+#mini{
+    width: 60px;
+}
+#section{
+    text-align: justify;
+    width: 70%;
+}
+
+h2{
+    
+    display: inline;
+    
+}
+#para{
+    margin-top: 20px;
+}
+
+header{
+    background: #eee;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    width: 100%;
+
+    
+}
+
+
+#email{
+    width: 70%;
+    padding: 4px;
+    
+}
+#submit{
+    width: 40%;
+    margin-top: 10px;
+    background: #f1c40f;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 1.1em;
+
+    
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    
+}
+nav ul li a :link {
+    text-decoration: none;
+    color: inherit;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mart{
+    margin-top: 30px;
+}
+
+#form{
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+#far{
+    border: 1px solid black;
+    padding-top: 0;
+    width: 75%;
+    padding-bottom: 14px;
+    margin: auto auto;
+    margin-bottom: 10px;
+}
+
+#far > h3{
+    background: #d9dedb;
+    margin-top: 0;
+    padding: 13px;
+}
+#far > h1{
+    margin: 10px;
+}
+#far > p{
+    margin: 10px;
+}
+
+#btns{
+    margin-top: 10px;
+    padding: 10px;
+    background: #f1c40f;
+    font-size: 0.89em;
+    border: none;
+}
+#btns:active{
+    background: orange;
+}
+footer{
+    text-align: end;
+    padding-bottom: 14px;
+    background: #d9dedb;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+#foot{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0;
+}
+
+span{
+    
+    margin-right: 0;
+}
+
+@media screen and (min-width: 720px) {
+
+    body{
+        position: relative;
+    }
+
+    #form{
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    header{
+        display: flex;
+        padding-top: 17px;
+        padding-bottom: 19px;
+        position: fixed;
+        
+        margin-bottom: 0;
+        background: #eee;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+        font-family: 'Lato', sans-serif;
+        
+    }
+
+    nav #start {
+        display: flex;
+        position: absolute;
+        right: 10%;
+        justify-content: space-evenly;
+
+        
+    }
+    
+
+    #two{
+        
+        position: relative;
+        right: 30px;
+        margin-bottom: 8%;
+    }
+    #three{
+        
+        position: relative;
+        right: 30px;
+        
+    }
+
+    #container{
+        
+        padding-left: 12%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    #start > li:nth-child(2){
+        margin-right: 120px;
+    }
+
+    #start > li:nth-child(1){
+        margin-right: 120px;
+    }
+    #para{
+        text-align: justify;
+        width: 80%;
+    }
+
+    main{
+        padding-top: 7%;
+    }
+    #email{
+        width: 30%;
+        padding: 4px;
+        
+    }
+    #submit{
+        width: 15%;
+        margin-top: 15px;
+        background: #f1c40f;
+        padding: 4px;
+        font-weight: 700;
+        font-size: 1.1em;
+        border: none;
+    
+        
+    }
+
+    #far{
+        border: 1px solid black;
+        padding-top: 0;
+        width: 55%;
+        padding-bottom: 14px;
+        margin: auto auto;
+        margin-bottom: 10px;
+    }
+
+    
+    #img{
+        
+        text-align: center;
+    }
+
+    #one{
+        position: relative;
+        right: 30px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 8%;
+        
+    }
+
+    #mart{
+        display: flex;
+        padding-left: 8%;
+        
+    }
+
+    #far{
+        width: 28%;
+        margin: 17px;
+        
+    }
+
+    #adas{
+        margin: auto auto;
+    }
+
+    video{
+        width: 40%;
+        margin-top: 7%;
+    }
+
+    footer{
+        margin-left: 10%;
+        width: 70%;
+        padding-right: 20px;
+    }
+
+    
+
+
+    
+}
